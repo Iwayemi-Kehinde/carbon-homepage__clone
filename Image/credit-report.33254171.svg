@@ -1,0 +1,15 @@
+<svg id="market-fluctuation" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Layer_2">
+    <path id="Path_22155" data-name="Path 22155" d="M40.625,50H9.375A9.374,9.374,0,0,1,0,40.625V9.375A9.374,9.374,0,0,1,9.375,0h31.25A9.374,9.374,0,0,1,50,9.375v31.25A9.374,9.374,0,0,1,40.625,50Z" fill="#f2eefb"/>
+  </g>
+  <g id="bold_1_" transform="translate(12.5 15.625)">
+    <g id="Group_9873" data-name="Group 9873">
+      <g id="Group_9872" data-name="Group 9872" transform="translate(1.042)">
+        <path id="Path_22156" data-name="Path 22156" d="M14.917,13.969V24.125H8.667V13.969a1.3,1.3,0,0,1,1.3-1.3h3.645A1.3,1.3,0,0,1,14.917,13.969Z" transform="translate(-8.667 -8.5)" fill="#5d2ece"/>
+        <path id="Path_22157" data-name="Path 22157" d="M20.25,11.3V25.625H14V11.3A1.3,1.3,0,0,1,15.3,10h3.645A1.3,1.3,0,0,1,20.25,11.3Z" transform="translate(-5.667 -10)" fill="#5d2ece"/>
+        <path id="Path_22158" data-name="Path 22158" d="M25.583,15.969V23h-6.25V15.969a1.3,1.3,0,0,1,1.3-1.3h3.647A1.3,1.3,0,0,1,25.583,15.969Z" transform="translate(-2.667 -7.375)" fill="#5d2ece"/>
+      </g>
+      <path id="Path_22159" data-name="Path 22159" d="M32.219,22.563H8.781a.781.781,0,0,1,0-1.562H32.219a.781.781,0,0,1,0,1.563Z" transform="translate(-8 -3.813)" fill="#b48cfc"/>
+    </g>
+  </g>
+</svg>

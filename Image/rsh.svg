@@ -1,0 +1,17 @@
+<svg id="_006-tumblr" data-name="006-tumblr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.332" y1="0.141" x2="0.585" y2="0.682" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001935"/>
+      <stop offset="1" stop-color="#001121"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.738" y1="0.628" x2="-0.899" y2="-0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001121" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000305"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0.332" x2="0.5" y2="0.843" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path id="Path_12328" data-name="Path 12328" d="M14.78,17.692a54.368,54.368,0,0,1-11.561,0A3.278,3.278,0,0,1,.308,14.78a54.366,54.366,0,0,1,0-11.561A3.278,3.278,0,0,1,3.22.308a54.366,54.366,0,0,1,11.561,0A3.278,3.278,0,0,1,17.692,3.22a54.366,54.366,0,0,1,0,11.561A3.277,3.277,0,0,1,14.78,17.692Zm0,0" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="Path_12329" data-name="Path 12329" d="M44.533,31.691a2.908,2.908,0,0,0-2.583-2.584,48.262,48.262,0,0,0-10.259,0,2.909,2.909,0,0,0-2.584,2.584,48.261,48.261,0,0,0,0,10.259,2.908,2.908,0,0,0,2.584,2.584,48.241,48.241,0,0,0,10.259,0,2.908,2.908,0,0,0,2.584-2.584A48.241,48.241,0,0,0,44.533,31.691Zm0,0" transform="translate(-27.934 -27.82)" fill="url(#linear-gradient-2)"/>
+  <path id="Path_12330" data-name="Path 12330" d="M7.672,409.8q.019.187.038.373a3.277,3.277,0,0,0,2.912,2.911,54.366,54.366,0,0,0,11.561,0,3.277,3.277,0,0,0,2.911-2.911q.02-.187.039-.373Zm0,0" transform="translate(-7.402 -395.398)" fill="url(#linear-gradient-3)"/>
+  <path id="medium" d="M3.1,9.6c0,.276-.2.39-.425.276L.26,8.637A.443.443,0,0,1,.076,8.46.478.478,0,0,1,0,8.213V2.166c0-.226.132-.328.431-.175L3.083,3.349c.038.039.01-.231.015,6.249ZM3.43,3.911,6.2,8.5,3.43,7.093Zm5.869.1V9.6a.31.31,0,0,1-.073.215.25.25,0,0,1-.2.082.481.481,0,0,1-.244-.069L6.5,8.658ZM9.284,3.37q0,.016-1.331,2.225T6.393,8.181L4.37,4.818l1.681-2.8a.31.31,0,0,1,.4-.117L9.263,3.338a.034.034,0,0,1,.021.032Z" transform="translate(4.35 3.17)" fill="#fff"/>
+</svg>
