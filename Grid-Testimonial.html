@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <link rel="icon" href="./Image/CBN.cb685ae4.svg">
+  <style>
+    body{
+      padding: 60px 0;
+    }
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: mm;
+    }
+
+    @font-face {
+      font-family: mm;
+      src: url(./Fonts/YsabeauInfant-VariableFont_wght.ttf);
+    }
+
+    h3 {
+      text-align: center;
+      margin: 60px 0;
+      position: relative;
+      padding-bottom: 10px;
+      font-size: 30px;
+      color: rgb(66, 66, 66);
+    }
+
+    h3::after {
+      content: "";
+      background-color: steelblue;
+      display: block;
+      width: 100px;
+      height: 3px;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 10px 7%;
+      gap: 30px;
+    }
+    .item:hover{
+      box-shadow: 0px 0px 7px 10px rgba(0,0,0,.15);
+      transform: scale(1.05);
+      transform-origin: top right;
+    }
+    .container .item {
+      background-color: steelblue;
+      color: white;
+      padding: 30px 4%;
+      line-height: 22px;
+      border-radius: 10px;
+      transition: box-shadow,.5s;
+      cursor: pointer;
+    }
+
+    .item:nth-of-type(1) {
+      grid-column: 1/4;
+    }
+
+    .item:nth-of-type(2) {
+      grid-column: 1/3;
+    }
+
+    .item:nth-of-type(3) {
+      grid-column: 3/4;
+    }
+
+    @media screen and (max-width:900px) {
+      .item:nth-of-type(1) {
+        grid-column: 1/3;
+      }
+
+      .item:nth-of-type(3) {
+        grid-row: 1/3;
+      }
+    }
+
+    @media screen and (max-width:700px) {
+      .item:nth-of-type(1) {
+        grid-column: 1/4;
+      }
+
+      .item:nth-of-type(3) {
+        grid-column: 1/4;
+      }
+      .item:nth-of-type(2) {
+        grid-column: 1/4;
+      }
+    
+    }
+    .container+div.button{
+      margin: 50px 7%;
+      background-color: steelblue;
+      display: inline-block;
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 3px;
+      box-shadow: 0px 12px black;
+      cursor: pointer;
+      transition: box-shadow .5s, transform .3s;
+    }
+    .container+div.button:hover{
+      box-shadow: 0 0 0;
+      transform: translateY(12px);
+    }
+    @media(max-width: 340px) {
+      h3{
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h3>WONDERFUL GRID</h3>
+  <div class="container">
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eos quas maiores vel, nesciunt, ipsum eligendi
+      perferendis, nemo similique eaque minima. Quidem quam dolorem, mollitia incidunt voluptatem sed neque? Debitis?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, harum.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eos quas maiores vel, nesciunt, ipsum eligendi
+      perferendis, nemo similique eaque minima. Quidem quam dolorem, mollitia incidunt voluptatem sed neque? Debitis?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, harum.
+    </div>
+    <div class="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eos quas maiores vel, nesciunt, ipsum eligendi
+      perferendis, nemo similique eaque minima. Quidem quam dolorem, mollitia incidunt voluptatem sed neque? Debitis?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, harum.
+    </div>
+  </div>
+  <div class="button">
+    <a style="color: white; text-decoration: none;" href="https://github.com/Iwayemi-Kehinde">
+      SEE MORE
+    </a>
+  </div>
+</body>
+
+</html>

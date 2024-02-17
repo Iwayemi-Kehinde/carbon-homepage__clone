@@ -11,7 +11,7 @@
         }
 
         @font-face {
-            src: url(Fonts/YsabeauInfant-VariableFont_wght.ttf);
+            src: url(./Fonts/YsabeauInfant-VariableFont_wght.ttf) format(truetype);
             font-family: myfont;
         }
 
